@@ -1,0 +1,98 @@
+/* リセット　*/
+@charset 'UTF-8';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+html {
+  font: 16px Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, sans-serif;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+input,
+button {
+  outline: none;
+  border: initial;
+  background: initial;
+}
+
+/* リセット終了 */
+
+/* グローバルスタイル */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #e2f6f1;
+}
+
+main {
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+header {
+  background: linear-gradient(135deg, #3fa493, #58dac4, #68eebd);
+  padding: 1rem;
+}
+
+h1 {
+  color: #fff;
+}
+
+input {
+  color: #92989a;
+  background: #f1f9f8;
+  border-radius: 5px;
+}
+
+form > input {
+  flex-basis: 500px;
+}
+
+input:focus {
+  border: 2px solid;
+  border-color: #e8feff;
+}
+
+input:hover {
+  border: 1px solid #fff;
+}
+
+ul {
+  overflow: hidden;
+}
+
+li {
+  line-height: 1.5;
+  background: #f7fffc;
+}
+
+li > input {
+  text-align: center;
+}
+
+p,
+input {
+  font-weight: normal;
+  color: #aaafb0f0;
+}
+
+button {
+  border-radius: 3px;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+}
