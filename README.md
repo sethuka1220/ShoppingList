@@ -1,6 +1,15 @@
-# React + Vite
+# 買い物リスト
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### 開発ツール　: React＋vite
+#### 使用している言語 : javascript
+
+### 特徴：
+　・リストの追加、削除機能
+　・ローカルストレージを利用した履歴保存機能
+　・過去の履歴の閲覧機能
+　・期限切れの履歴の自動削除機能
+   
+
 
 Currently, two official plugins are available:
 
