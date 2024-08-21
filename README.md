@@ -1,5 +1,5 @@
 # 買い物リスト
-<<<<<<< HEAD
+
 
 ### 特徴：
 
@@ -24,7 +24,7 @@
 - React Router Dom 　/ version6.24.0
 - React Icons 　/ version5.2.1
 - uuid 　/ version10.0.0
-=======
+
 
 ### 特徴：
 - リストの追加機能
@@ -47,7 +47,7 @@
 - uuid　/ version10.0.0
 
 
->>>>>>> origin/main
+
 
 Currently, two official plugins are available:
 
