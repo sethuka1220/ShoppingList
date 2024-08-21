@@ -66,7 +66,7 @@ export const HistoryList = () => {
       <header className={styles.header}>
         <div className={styles.nav}>
           <button className={styles.nav__btn} onClick={handleHomeBackClick}>
-            ホーム
+            トップ
           </button>
         </div>
         <h1 className={styles.header__title}>{`${date}の履歴`}</h1>

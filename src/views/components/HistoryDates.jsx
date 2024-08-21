@@ -2,27 +2,12 @@ import { useNavigate } from "react-router-dom";
 import { SavedDatesContext } from "./savedDatesContext.jsx";
 import "../../index.css";
 import styles from "../../assets/css/historyDates.module.css";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 
 //============= 過去の履歴の表示 ====<p></p>================//
 export const HistoryDates = () => {
   const navigate = useNavigate();
   const { savedDates, setSavedDates } = useContext(SavedDatesContext);
-
-  //コンポーネントの初回レンダー時にローカルストレージから保存された日付を取得
-  useEffect(() => {
-    try {
-      const dates = localStorage.getItem("saved_dates");
-      //保存された日付をステートに設定
-      if (dates) {
-        setSavedDates(JSON.parse(dates));
-      }
-    } catch (e) {
-      console.error("データを取得できませんでした。", e);
-      alert("データーの取得に失敗しました。詳細:" + e.message);
-      return;
-    }
-  }, []);
 
   // 全ての履歴の削除処理
   const handleAllDeleteDate = () => {

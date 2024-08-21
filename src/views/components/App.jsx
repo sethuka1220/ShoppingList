@@ -249,6 +249,21 @@ export const App = () => {
     console.log(savedDates);
   });
 
+  //コンポーネントのレンダー時にローカルストレージから保存された日付を取得
+  useEffect(() => {
+    try {
+      const dates = localStorage.getItem("saved_dates");
+      //保存された日付をステートに設定
+      if (dates) {
+        setSavedDates(JSON.parse(dates));
+      }
+    } catch (e) {
+      console.error("データを取得できませんでした。", e);
+      alert("データーの取得に失敗しました。詳細:" + e.message);
+      return;
+    }
+  }, []);
+
   //リストをローカルストレージに保存
   const saveList = () => {
     const currentDate = new Date().toISOString().slice(0, 10); //日付だけ取得
