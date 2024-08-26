@@ -1,3 +1,4 @@
 nodo_modules/
 dist/
 .gitignore/
+vite.config.js/
