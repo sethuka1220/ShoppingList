@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sethuka1220.github.io/Shopping_List",
+  "homepage": "https://sethuka1220.github.io/ShoppingList",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
