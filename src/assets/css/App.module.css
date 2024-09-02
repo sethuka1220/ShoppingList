@@ -57,7 +57,7 @@
 }
 
 .list {
-  height: 19.5rem;
+  height: 22.1rem;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -191,6 +191,7 @@
   }
 
   .list {
+    heigth: 27rem;
     overflow-y: auto;
     overflow-x: hidden;
   }
