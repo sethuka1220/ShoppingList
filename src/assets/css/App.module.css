@@ -191,7 +191,7 @@
   }
 
   .list {
-    heigth: 27rem;
+    height: 27rem;
     overflow-y: auto;
     overflow-x: hidden;
   }
