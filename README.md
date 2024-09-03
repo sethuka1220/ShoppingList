@@ -19,11 +19,7 @@
 - React Router Dom　/ version6.24.0
 - React Icons　/ version5.2.1
 - uuid　/ version10.0.0
+ ## デモ 
+こちらで公開しています　[Github Pages](https://sethuka1220.github.io/ShoppingList/)<br>
 
 
-
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
